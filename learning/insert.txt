@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Insert Customer</title>
+
+
+</head>
+
+<form method="post" action="addcustomer.php">
+<table>
+<tr>
+<td>Name</td>
+<td><input type="text" name="name" value=""></td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><input type="text" name="address" value=""></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" name="email" value=""></td>
+</tr>
+
+<tr>
+<td>City</td>
+<td><input type="text" name="city" value=""></td>
+</tr>
+<tr>
+
+<tr>
+<td></td>
+<td><input type="submit" name="submit" value="ADD New Customer"></td>
+
+</tr>
+
+
+</table>
+</form>
+
+
+</html>

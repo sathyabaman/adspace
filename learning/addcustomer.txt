@@ -1,0 +1,25 @@
+<?php
+
+
+require_once("includes/connection.php"); 
+require_once("includes/database.php"); 
+
+if (isset($_POST['submit'])) { 
+
+
+
+$name = trim($_POST['name']);
+$address = trim($_POST['address']);
+$email = trim($_POST['email']);
+$city = trim($_POST['city']);
+
+
+$sql="INSERT INTO customer (name, address, email, city, active) VALUES ('".$name."', '".$address."', '".$email."', '".$city."', '')" ;
+$database->query($sql);
+
+}
+//header("Location: index.php");
+
+
+
+?>

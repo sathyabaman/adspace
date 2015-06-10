@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Customer Details</title>
+
+<?php
+
+require_once("includes/connection.php"); 
+require_once("includes/database.php"); 
+
+?>
+
+</head>
+
+<body>
+
+
+<table align="center" border="1">
+
+<tr>
+<td>ID</td>
+<td>Name</td>
+<td>Address</td>
+<td>Email</td>
+<td>City</td>
+<td>Active Status</td>
+
+</tr>
+<?php
+
+
+$sql = "SELECT * FROM customer";
+
+$result_set = $database->query($sql);
+
+$result = array();
+while ($customer_value = mysql_fetch_object($result_set)) {
+    $result[] = $customer_value;
+}
+
+
+
+?>
+
+<?php foreach ($result as $customers) : ?>
+<tr>
+
+<td><?php echo $customers->id; ?></td>
+<td><?php echo $customers->name; ?></td>
+<td><?php echo $customers->address; ?></td>
+<td><?php echo $customers->email; ?></td>
+<td><?php echo $customers->city; ?></td>
+<td><?php echo $customers->active; ?></td>
+</tr>
+<?php endforeach; ?>
+
+
+</table>
+
+
+
+</body>
+
+</html>

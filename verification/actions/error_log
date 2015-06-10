@@ -1,0 +1,11 @@
+[01-Jun-2013 13:57:29 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[01-Jun-2013 14:01:35 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[01-Jun-2013 14:24:50 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[02-Jun-2013 01:51:58 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[02-Jun-2013 02:21:49 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[02-Jun-2013 02:21:49 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/adspacel/public_html/verification/actions/send_bulk_email_action.php on line 21
+[02-Jun-2013 02:22:48 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[02-Jun-2013 02:22:48 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/adspacel/public_html/verification/actions/send_bulk_email_action.php on line 21
+[02-Jun-2013 02:23:15 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[02-Jun-2013 02:27:04 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[02-Jun-2013 02:28:14 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0

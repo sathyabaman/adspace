@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "verification"
+AuthUserFile "/home/adspacel/.htpasswds/public_html/verification/passwd"
+require valid-user

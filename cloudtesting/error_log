@@ -1,0 +1,59 @@
+[01-Jun-2014 21:25:33 Asia/Colombo] PHP Parse error:  syntax error, unexpected ')' in /home/adspacel/public_html/cloudtesting/upload_file.php on line 42
+[01-Jun-2014 21:30:59 Asia/Colombo] PHP Fatal error:  Uncaught exception 'Cloudinary\Error' with message 'Error in sending request to server - couldn't open file "{$_FILES["file"]["name"]}"
+' in /home/adspacel/public_html/cloudtesting/include/Uploader.php:270
+Stack trace:
+#0 /home/adspacel/public_html/cloudtesting/include/Uploader.php(56): Cloudinary\Uploader::call_api('upload', Array, Array, '{$_FILES["file"...')
+#1 /home/adspacel/public_html/cloudtesting/upload_file.php(38): Cloudinary\Uploader::upload('{$_FILES["file"...', Array)
+#2 {main}
+  thrown in /home/adspacel/public_html/cloudtesting/include/Uploader.php on line 270
+[01-Jun-2014 21:33:23 Asia/Colombo] PHP Fatal error:  Uncaught exception 'Cloudinary\Error' with message 'Error in sending request to server - couldn't open file "{echo $_FILES["file"]["name"];}"
+' in /home/adspacel/public_html/cloudtesting/include/Uploader.php:270
+Stack trace:
+#0 /home/adspacel/public_html/cloudtesting/include/Uploader.php(56): Cloudinary\Uploader::call_api('upload', Array, Array, '{echo $_FILES["...')
+#1 /home/adspacel/public_html/cloudtesting/upload_file.php(38): Cloudinary\Uploader::upload('{echo $_FILES["...', Array)
+#2 {main}
+  thrown in /home/adspacel/public_html/cloudtesting/include/Uploader.php on line 270
+[01-Jun-2014 21:35:25 Asia/Colombo] PHP Fatal error:  Uncaught exception 'Cloudinary\Error' with message 'Error in sending request to server - couldn't open file "419943_4554000850693_230996009_n.jpg"
+' in /home/adspacel/public_html/cloudtesting/include/Uploader.php:270
+Stack trace:
+#0 /home/adspacel/public_html/cloudtesting/include/Uploader.php(56): Cloudinary\Uploader::call_api('upload', Array, Array, '419943_45540008...')
+#1 /home/adspacel/public_html/cloudtesting/upload_file.php(38): Cloudinary\Uploader::upload('419943_45540008...', Array)
+#2 {main}
+  thrown in /home/adspacel/public_html/cloudtesting/include/Uploader.php on line 270
+[01-Jun-2014 21:36:44 Asia/Colombo] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ')' in /home/adspacel/public_html/cloudtesting/upload_file.php on line 38
+[01-Jun-2014 21:37:25 Asia/Colombo] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ')' in /home/adspacel/public_html/cloudtesting/upload_file.php on line 38
+[01-Jun-2014 21:38:55 Asia/Colombo] PHP Fatal error:  Uncaught exception 'Cloudinary\Error' with message 'Error in sending request to server - couldn't open file "419943_4554000850693_230996009_n.jpg"
+' in /home/adspacel/public_html/cloudtesting/include/Uploader.php:270
+Stack trace:
+#0 /home/adspacel/public_html/cloudtesting/include/Uploader.php(56): Cloudinary\Uploader::call_api('upload', Array, Array, '419943_45540008...')
+#1 /home/adspacel/public_html/cloudtesting/upload_file.php(38): Cloudinary\Uploader::upload('419943_45540008...', Array)
+#2 {main}
+  thrown in /home/adspacel/public_html/cloudtesting/include/Uploader.php on line 270
+[01-Jun-2014 21:43:54 Asia/Colombo] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/adspacel/public_html/cloudtesting/upload_file.php on line 40
+[01-Jun-2014 21:51:11 Asia/Colombo] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/adspacel/public_html/cloudtesting/upload_file.php on line 40
+[01-Jun-2014 21:52:51 Asia/Colombo] PHP Parse error:  syntax error, unexpected '{' in /home/adspacel/public_html/cloudtesting/upload_file.php on line 40
+[01-Jun-2014 21:53:40 Asia/Colombo] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ')' in /home/adspacel/public_html/cloudtesting/upload_file.php on line 40
+[01-Jun-2014 21:54:24 Asia/Colombo] PHP Parse error:  syntax error, unexpected '/', expecting ')' in /home/adspacel/public_html/cloudtesting/upload_file.php on line 40
+[01-Jun-2014 22:00:11 Asia/Colombo] PHP Parse error:  syntax error, unexpected ';' in /home/adspacel/public_html/cloudtesting/upload_file.php on line 42
+[01-Jun-2014 22:01:12 Asia/Colombo] PHP Fatal error:  Uncaught exception 'Cloudinary\Error' with message 'Error in sending request to server - couldn't open file "419943_4554000850693_230996009_n.jpg"
+' in /home/adspacel/public_html/cloudtesting/include/Uploader.php:270
+Stack trace:
+#0 /home/adspacel/public_html/cloudtesting/include/Uploader.php(56): Cloudinary\Uploader::call_api('upload', Array, Array, '419943_45540008...')
+#1 /home/adspacel/public_html/cloudtesting/upload_file.php(41): Cloudinary\Uploader::upload('419943_45540008...', Array)
+#2 {main}
+  thrown in /home/adspacel/public_html/cloudtesting/include/Uploader.php on line 270
+[01-Jun-2014 22:03:28 Asia/Colombo] PHP Fatal error:  Uncaught exception 'Cloudinary\Error' with message 'Error in sending request to server - couldn't open file "/home/adspacel/public_html419943_4554000850693_230996009_n.jpg"
+' in /home/adspacel/public_html/cloudtesting/include/Uploader.php:270
+Stack trace:
+#0 /home/adspacel/public_html/cloudtesting/include/Uploader.php(56): Cloudinary\Uploader::call_api('upload', Array, Array, '/home/adspacel/...')
+#1 /home/adspacel/public_html/cloudtesting/upload_file.php(41): Cloudinary\Uploader::upload('/home/adspacel/...', Array)
+#2 {main}
+  thrown in /home/adspacel/public_html/cloudtesting/include/Uploader.php on line 270
+[01-Jun-2014 22:06:21 Asia/Colombo] PHP Fatal error:  Uncaught exception 'Cloudinary\Error' with message 'Missing required parameter - file' in /home/adspacel/public_html/cloudtesting/include/Uploader.php:283
+Stack trace:
+#0 /home/adspacel/public_html/cloudtesting/include/Uploader.php(56): Cloudinary\Uploader::call_api('upload', Array, Array, false)
+#1 /home/adspacel/public_html/cloudtesting/upload_file.php(44): Cloudinary\Uploader::upload(false, Array)
+#2 {main}
+  thrown in /home/adspacel/public_html/cloudtesting/include/Uploader.php on line 283
+[01-Jun-2014 22:10:04 Asia/Colombo] PHP Parse error:  syntax error, unexpected T_ECHO in /home/adspacel/public_html/cloudtesting/upload_file.php on line 42
+[01-Jun-2014 22:11:01 Asia/Colombo] PHP Fatal error:  Function name must be a string in /home/adspacel/public_html/cloudtesting/upload_file.php on line 43
